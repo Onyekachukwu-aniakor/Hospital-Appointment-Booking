@@ -14,28 +14,12 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // ⭐ IMPORTANT: ENABLE CREDENTIALS FOR CLERK COOKIE SESSION
-const allowedOrigins = [
-  "https://hospital-appointment-booking-client.vercel.app/", // user frontend
-  "https://hospital-appointment-booking-admin.vercel.app/", // admin dashboard
-];
+//const allowedOrigins = [
+  //"https://hospital-appointment-booking-client.vercel.app", // user frontend
+  //"https://hospital-appointment-booking-admin.vercel.app", // admin dashboard
+//];
 
-app.use(
-  cors({
-    origin: function (origin, callback) {
-      // allow server-to-server & tools like Postman (no origin)
-      if (!origin) return callback(null, true);
-
-      if (allowedOrigins.includes(origin)) {
-        return callback(null, true);
-      }
-
-      return callback(new Error("Not allowed by CORS"));
-    },
-    credentials: true, // ✅ REQUIRED for cookies / Clerk
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
-    allowedHeaders: ["Content-Type", "Authorization"],
-  })
-);
+app.use(cors());
 
 
 // ⭐ Use Clerk middleware globally (does NOT protect routes)

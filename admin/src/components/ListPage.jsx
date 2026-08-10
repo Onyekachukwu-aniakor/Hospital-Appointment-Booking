@@ -99,7 +99,7 @@ function getSortedScheduleDates(scheduleLike) {
 /* --------------------------------------------------------------------- */
 
 export default function AnimatedDoctorListResponsive({ apiBase }) {
-  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app/";
+  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app";
 
   const [doctors, setDoctors] = useState([]);
   const [expanded, setExpanded] = useState(null);

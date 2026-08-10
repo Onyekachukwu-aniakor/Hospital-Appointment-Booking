@@ -18,7 +18,7 @@ import {
   iconSize,
 } from "../assets/assets1/dummyStyles";
 
-const API_BASE = import.meta.env.VITE_API_URL || "https://hospital-appointment-booking-server.vercel.app/";
+const API_BASE = import.meta.env.VITE_API_URL || "https://hospital-appointment-booking-server.vercel.app";
 const API = axios.create({ baseURL: API_BASE });
 
 /* -------------------- Helpers -------------------- */

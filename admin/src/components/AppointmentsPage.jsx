@@ -6,7 +6,7 @@ import { pageStyles, statusClasses, keyframesStyles } from "../assets/dummyStyle
 /* ----------------------
   Config
 ------------------------ */
-const API_BASE = "https://hospital-appointment-booking-server.vercel.app/";
+const API_BASE = "https://hospital-appointment-booking-server.vercel.app";
 
 /* ----------------------
   Helpers

@@ -19,7 +19,7 @@ import { serviceAppointmentsStyles } from "../assets/dummyStyles";
 /* ----------------------
   Config
 ------------------------ */
-const API_BASE = "https://hospital-appointment-booking-server.vercel.app/";
+const API_BASE = "https://hospital-appointment-booking-server.vercel.app";
 
 /* ----------------------
   Helpers

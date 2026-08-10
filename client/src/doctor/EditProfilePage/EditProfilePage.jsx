@@ -59,7 +59,7 @@ function dedupeAndSortSchedule(schedule = {}) {
 export default function EditProfilePage({ apiBase }) {
   const { id } = useParams(); // expects route like /doctor-edit/:id
   const navigate = useNavigate();
-  const API_BASE = "https://hospital-appointment-booking-server.vercel.app/";
+  const API_BASE = "https://hospital-appointment-booking-server.vercel.app";
 
   const [doc, setDoc] = useState(null);
   const [editing, setEditing] = useState(false);

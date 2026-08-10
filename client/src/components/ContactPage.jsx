@@ -311,7 +311,7 @@ export default function ContactPage() {
               214 High Street, Pensnett Road
             </p>
             <p className={contactPageStyles.infoItem}>
-              <Phone size={16} /> 07526000296
+              <Phone size={16} /> 
             </p>
             <p className={contactPageStyles.infoItem}>
               <Mail size={16} /> info@medicare.com
