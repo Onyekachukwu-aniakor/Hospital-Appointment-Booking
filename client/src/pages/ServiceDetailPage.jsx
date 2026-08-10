@@ -13,7 +13,7 @@ import { useAuth } from "@clerk/react";
 import toast, { Toaster } from "react-hot-toast";
 import { serviceDetailStyles, iconSize } from "../assets/assets1/dummyStyles";
 
-const DEFAULT_HOST = "https://hospital-appointment-booking-server.vercel.app".replace(/\/$/, "");
+const DEFAULT_HOST = "https://hospital-appointment-booking-server.vercel.app/".replace(/\/$/, "");
 
 export default function ServiceDetail() {
   const { id } = useParams();

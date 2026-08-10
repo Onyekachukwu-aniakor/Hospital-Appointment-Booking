@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 4000;
 
 // ⭐ IMPORTANT: ENABLE CREDENTIALS FOR CLERK COOKIE SESSION
 const allowedOrigins = [
-  "http://localhost:5173", // user frontend
-  "http://localhost:5174", // admin dashboard
+  "https://hospital-appointment-booking-client.vercel.app/", // user frontend
+  "https://hospital-appointment-booking-admin.vercel.app/", // admin dashboard
 ];
 
 app.use(

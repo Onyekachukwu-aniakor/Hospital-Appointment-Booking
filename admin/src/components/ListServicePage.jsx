@@ -13,7 +13,7 @@ import {
 import { serviceListStyles as s } from "../assets/dummyStyles";
 
 export default function ListServicePage({ apiBase }) {
-  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app";
+  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app/";
 
   const [services, setServices] = useState([]);
   const [openDetails, setOpenDetails] = useState({});

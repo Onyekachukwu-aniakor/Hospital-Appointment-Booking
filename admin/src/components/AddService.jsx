@@ -15,7 +15,7 @@ import { addServiceStyles } from "../assets/dummyStyles";
 
 
 export default function AddService({ apiBase, serviceId }) {
-  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app";
+  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app/";
 
   const fileRef = useRef(null);
   const [imagePreview, setImagePreview] = useState(null); // either objectURL or remote imageUrl

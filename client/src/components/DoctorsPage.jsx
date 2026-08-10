@@ -12,7 +12,7 @@ import {
 import { doctorsPageStyles } from "../assets/assets1/dummyStyles";
 
 const DoctorsPage = ({ apiBase }) => {
-  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app";
+  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app/";
 
   const [allDoctors, setAllDoctors] = useState([]);
   const [loading, setLoading] = useState(true);

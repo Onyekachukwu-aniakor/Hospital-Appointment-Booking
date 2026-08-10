@@ -108,7 +108,7 @@ const ServiceCard = ({ service }) => {
 };
 
 export default function ServicePage({ apiBase, previewCount = 9999 }) {
-  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app";
+  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app/";
   const [services, setServices] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");

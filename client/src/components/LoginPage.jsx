@@ -8,7 +8,7 @@ import { loginPageStyles, toastStyles } from "../assets/assets1/dummyStyles";
 const STORAGE_KEY = "doctorToken_v1";
 
 export default function LoginPage({ apiBase }) {
-  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app";
+  const API_BASE = apiBase || "https://hospital-appointment-booking-server.vercel.app/";
   const [formData, setFormData] = useState({ email: "", password: "" });
   const [busy, setBusy] = useState(false);
   const navigate = useNavigate();

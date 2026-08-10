@@ -248,7 +248,7 @@ export default function DoctorDetailPage() {
 
       if (form.imageFile) fd.append("image", form.imageFile);
 
-      const API_BASE = "https://hospital-appointment-booking-server.vercel.app";
+      const API_BASE = "https://hospital-appointment-booking-server.vercel.app/";
 
       const res = await fetch(`${API_BASE}/doctors`, {
         method: "POST",

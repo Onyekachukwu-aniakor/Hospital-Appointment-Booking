@@ -22,7 +22,7 @@ import "react-toastify/dist/ReactToastify.css";
 import { useAuth, useUser } from "@clerk/react";
 import { doctorDetailStyles } from "../assets/assets1/dummyStyles";
 
-const API_BASE = "https://hospital-appointment-booking-server.vercel.app";
+const API_BASE = "https://hospital-appointment-booking-server.vercel.app/";
 
 function getScheduleDates(schedule) {
   if (!schedule) return [];
