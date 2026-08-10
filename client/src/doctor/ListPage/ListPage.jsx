@@ -3,7 +3,7 @@ import { Search, X, Phone, Calendar } from "lucide-react";
 import { useParams } from "react-router-dom";
 import { listPageStyles } from "../../assets/assets1/dummyStyles";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-appointment-booking-server.vercel.app";
 
 /* -------------------------
    Utils

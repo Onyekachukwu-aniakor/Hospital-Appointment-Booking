@@ -18,7 +18,7 @@ import {
 } from "lucide-react";
 import { serviceDashboardStyles } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-appointment-booking-server.vercel.app";
 
 /* -----------------------
    Normalizer - robust to multiple backend shapes
