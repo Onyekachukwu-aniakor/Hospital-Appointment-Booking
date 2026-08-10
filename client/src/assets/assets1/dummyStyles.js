@@ -252,7 +252,7 @@ export const contactPageStyles = {
   
   // Button container
   buttonContainer: "flex flex-col md:flex-row items-center gap-3",
-  button: "w-full md:w-auto flex items-center gap-2 justify-center bg-emerald-600 text-white px-5 py-2 rounded-full shadow-lg transition-transform active:scale-95",
+  button: "w-full md:w-auto flex items-center gap-2 justify-center bg-emerald-600 text-white px-5 py-2 rounded-full shadow-lg transition-transform active:scale-95 cursor-pointer",
   sentMessage: "text-emerald-700 italic text-sm animate-pulse",
   
   // Info container

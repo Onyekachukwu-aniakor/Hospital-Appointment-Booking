@@ -121,7 +121,7 @@ export default function ContactPage() {
       form.department || "N/A"
     }\nService: ${form.service || "N/A"}\nMessage: ${form.message}`;
 
-    const url = `https://wa.me/8299431275?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/7526000296?text=${encodeURIComponent(text)}`;
     window.open(url, "_blank");
 
     setForm(initial);
@@ -308,13 +308,13 @@ export default function ContactPage() {
               Visit Our Clinic
             </h3>
             <p className={contactPageStyles.infoText}>
-              Gomtinagar, Lucknow, Uttar Pradesh
+              214 High Street, Pensnett Road
             </p>
             <p className={contactPageStyles.infoItem}>
-              <Phone size={16} /> 8299431275
+              <Phone size={16} /> 07526000296
             </p>
             <p className={contactPageStyles.infoItem}>
-              <Mail size={16} /> info@yourclinic.com
+              <Mail size={16} /> info@medicare.com
             </p>
           </div>
 
@@ -331,7 +331,7 @@ export default function ContactPage() {
               Clinic Hours
             </h4>
             <p className={contactPageStyles.hoursText}>
-              Mon - Sat: 9:00 AM - 6:00 PM
+              Mon - Sun: 24/7
             </p>
           </div>
         </div>
