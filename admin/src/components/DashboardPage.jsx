@@ -483,7 +483,7 @@ function MobileDoctorCard({ d }) {
 
       <div className={s.mobileEarningsContainer}>
         <div>Earned</div>
-        <div className="font-semibold">₹ {d.earnings.toLocaleString()}</div>
+        <div className="font-semibold">£ {d.earnings.toLocaleString()}</div>
       </div>
     </div>
   );
