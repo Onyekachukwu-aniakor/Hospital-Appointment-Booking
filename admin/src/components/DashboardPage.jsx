@@ -373,7 +373,7 @@ export default function DashboardPage() {
                     </td>
 
                     <td className={s.tableCell + " " + s.feeText}>
-                      ₹ {d.fee}
+                      £ {d.fee}
                     </td>
 
                     <td className={s.tableCell + " " + s.appointmentsText}>
@@ -389,7 +389,7 @@ export default function DashboardPage() {
                     </td>
 
                     <td className={s.tableCell + " " + s.earningsText}>
-                      ₹ {d.earnings.toLocaleString()}
+                      £ {d.earnings.toLocaleString()}
                     </td>
                   </tr>
                 ))}
